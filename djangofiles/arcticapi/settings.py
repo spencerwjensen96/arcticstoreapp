@@ -76,6 +76,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'arcticapi.wsgi.application'
 
+SECURE_BROWSER_XSS_FILTER = True
+
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
